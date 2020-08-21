@@ -45,3 +45,14 @@ Lydia-v4 as printhead
 ### Heatbands
 
 #### Fans
+
+
+----
+
+# References
+
+- [ROS - Github](https://github.com/ros-industrial)
+- [ROS - GBRL - Github](https://github.com/openautomation/ROS-GRBL/wiki/GRBLtron)
+- [ROS - Matlab|SimuLnk](https://www.mathworks.com/help/ros/ug/get-started-with-ros-in-simulink.html)
+- [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
+- [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
