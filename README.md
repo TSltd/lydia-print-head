@@ -18,7 +18,13 @@ Lydia-v4 as printhead
 
 - For now, we base all on Arduino based and existing PlasticHub firmware framework, in particular we will use Controllino-Mega which gives us Ethernet and RS485
 - VFD and PID control is mapped to Serial communication which might accept G-Code
-- VFD will be Omron-M2X series since we can use existing code
+- VFD will be Omron-M2X series since we can use existing code. The VFD also supports Modbus (rather difficult).
+
+![](./assets/lydia-print-head-logical.jpg)
+
+**References** 
+
+- There is currently an old but public backup of [PlasticHub Firmware](https://github.com/plastic-hub/plunger-firmware/tree/master/shredder-extrusion/firmware-next). In particular, it shows it's modularity and a number of features as Modbus and serial interfacing for HMIs (touchscreen).
 
 ### PID Controller
 
