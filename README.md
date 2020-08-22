@@ -22,6 +22,8 @@ Lydia-v4 as printhead
 
 ![](./assets/lydia-print-head-logical.jpg)
 
+**[Diagram source](https://app.diagrams.net/#G1L7Prviy9U-2gpcZHm8Z5dj39gxDHd_V_)**
+
 **References** 
 
 - There is currently an old but public backup of [PlasticHub Firmware](https://github.com/plastic-hub/plunger-firmware/tree/master/shredder-extrusion/firmware-next). In particular, it shows it's modularity and a number of features as Modbus and serial interfacing for HMIs (touchscreen).
