@@ -16,7 +16,7 @@ Lydia-v4 as printhead
 
 ### Firmware
 
-- For now, we base all on Arduino based and existing PlasticHub firmware framework, in particular we will use Controllino-Mega which gives us Ethernet and RS485
+- For now, we base all on Arduino based and existing PlasticHub firmware framework, in particular we will use [Controllino-Mega](https://www.controllino.biz/product/controllino-mega/) which gives us Ethernet and RS485. The board has been proven reliable and robust (ideal for prototyping).
 - VFD and PID control is mapped to Serial communication which might accept G-Code
 - VFD will be Omron-M2X series since we can use existing code. The VFD also supports Modbus (rather difficult).
 
@@ -55,7 +55,6 @@ Lydia-v4 as printhead
 ### Heatbands
 
 #### Fans
-
 
 ----
 
