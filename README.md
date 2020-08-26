@@ -40,8 +40,6 @@ Lydia-v4 as printhead
 
 ![](./assets/E5DC-B.jpg)
 
-
-
 ### Barrel
 
 - easy to shorten
@@ -67,9 +65,10 @@ Lydia-v4 as printhead
 
 ## Todos
 
-- Investigate Omron - PID feedback to enable more control (purge,...)
+- Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
 - Investigate GCode to ROS mapping
 - Investigate screw tip machining, if lucky we get away with 4 axis
+- Test different VFD/PID checksum/parity settings with larger EMI around
 
 # References
 
