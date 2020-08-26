@@ -65,6 +65,12 @@ Lydia-v4 as printhead
 
 ----
 
+## Todos
+
+- Investigate Omron - PID feedback to enable more control (purge,...)
+- Investigate GCode to ROS mapping
+- Investigate screw tip machining, if lucky we get away with 4 axis
+
 # References
 
 - [ROS - Github](https://github.com/ros-industrial)
