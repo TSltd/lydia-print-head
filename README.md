@@ -36,6 +36,11 @@ Lydia-v4 as printhead
 - We should create logging module as well a an API to set temperature profiles for different materials. The logging module will help analyzing different PID settings as well experimenting with barrel cooling (when overshooting becomes an issue).
 - Additional, we forward alarms for overshooting on the internal bus
 
+- **Changes** :  Turns out that the [E5DC / E5DC-B](http://www.ia.omron.com/products/family/3242/) family is better choice.
+
+![](./assets/E5DC-B.jpg)
+
+
 
 ### Barrel
 
