@@ -86,5 +86,5 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [ROS - Matlab|SimuLnk](https://www.mathworks.com/help/ros/ug/get-started-with-ros-in-simulink.html)
 - [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
 - [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
-- [Project Noah])(https://github.com/plastic-hub/noah)
+- [Project Noah](https://github.com/plastic-hub/noah)
 
