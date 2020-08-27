@@ -2,6 +2,15 @@
 
 Lydia-v4 as printhead
 
+***brief*** this is part of our work of PP OpenSource contributions, please check our [library](https://library.precious-plastic.org/) or our [main page](https://plastic-hub.com/products/) for more. 
+
+This print head is a modification of [Lydia-v4](https://plastic-hub.com/products/lydia-v4.html) and aims at a generic solution for most of it´s components.
+
+# Status
+
+- Firmware, in development but mostly done
+- Hardware, in re-design
+
 ### Specs
 
 - Voltage : 220V
@@ -26,7 +35,7 @@ Lydia-v4 as printhead
 
 **References** 
 
-- There is currently an old but public backup of [PlasticHub Firmware](https://github.com/plastic-hub/plunger-firmware/tree/master/shredder-extrusion/firmware-next). In particular, it shows it's modularity and a number of features as Modbus and serial interfacing for HMIs (touchscreen).
+- There is currently an old but public backup of [PlasticHub Firmware](https://github.com/plastic-hub/plunger-firmware/tree/master/shredder-extrusion/firmware-next). In particular, it shows it's modularity and a number of features as Modbus and serial interfacing for HMIs (touchscreen), using [PlasticHub-Studio aka ´Control-Freak´](https://github.com/catx23/control-freak) ([Sources](https://github.com/plastic-hub/IDE))
 
 ### PID Controller
 
@@ -77,3 +86,5 @@ Lydia-v4 as printhead
 - [ROS - Matlab|SimuLnk](https://www.mathworks.com/help/ros/ug/get-started-with-ros-in-simulink.html)
 - [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
 - [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
+- [Project Noah])(https://github.com/plastic-hub/noah)
+
