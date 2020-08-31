@@ -6,6 +6,17 @@ Lydia-v4 as printhead
 
 This print head is a modification of [Lydia-v4](https://plastic-hub.com/products/lydia-v4.html) and aims at a generic solution for most of it´s components.
 
+**Status** : Confirmed & in progress, ETA Mid, of October
+
+## Todos
+
+- [ ] Hopper interface & lead-out -> Daniel
+- [ ] Gantry mount plate
+- [ ] Motor selection
+- [ ] Firmware updates
+- [ ] Sensors / Audio, LED feedback (status, etc... )
+- [ ] Bonus : test HMI
+
 # Status
 
 - Firmware, in development but mostly done
