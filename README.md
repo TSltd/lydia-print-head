@@ -2,11 +2,11 @@
 
 Lydia-v4 as printhead
 
-***brief*** this is part of our work of PP OpenSource contributions, please check our [library](https://library.precious-plastic.org/) or our [main page](https://plastic-hub.com/products/) for more. 
+***brief*** this is part of our work of PP OpenSource contributions, please check our [library](https://library.precious-plastic.org/) or our [main page](https://plastic-hub.com/products/) for more.
 
 This print head is a modification of [Lydia-v4](https://plastic-hub.com/products/lydia-v4.html) and aims at a generic solution for most of it´s components.
 
-**Status** : Confirmed & in progress, ETA Mid, of October
+**Status** : Confirmed & in progress, ETA Mid. of October
 
 ## Todos
 
@@ -19,7 +19,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 # Status
 
-- Firmware, in development but mostly done
+- [Firmware](https://github.com/plastic-hub/hydra), in development but mostly done
 - Hardware, in re-design
 
 ### Specs
@@ -77,12 +77,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - Feed control ? -> waiting for the robot pictures
 - should have a thread interface
 
-### Heatbands
-
-#### Fans
-
 ----
-
 ## Todos
 
 - Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
@@ -98,4 +93,3 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
 - [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
 - [Project Noah](https://github.com/plastic-hub/noah)
-
