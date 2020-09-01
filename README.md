@@ -44,10 +44,6 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 **[Diagram source](https://app.diagrams.net/#G1L7Prviy9U-2gpcZHm8Z5dj39gxDHd_V_)**
 
-**References** 
-
-- There is currently an old but public backup of [PlasticHub Firmware](https://github.com/plastic-hub/plunger-firmware/tree/master/shredder-extrusion/firmware-next). In particular, it shows it's modularity and a number of features as Modbus and serial interfacing for HMIs (touchscreen), using [PlasticHub-Studio aka ´Control-Freak´](https://github.com/catx23/control-freak) ([Sources](https://github.com/plastic-hub/IDE))
-
 ### PID Controller
 
 - We should go for [Omron E5-C](https://assets.omron.com/m/6f7cd0d93654a7a4/original/E5_C-Temperature-Controller-to-NB-Screen-Template-Tech-Guide.pdf) series which come with Modbus (consider EMI and cable length to the main controller)
