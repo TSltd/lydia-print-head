@@ -10,12 +10,31 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ## Todos
 
-- [ ] Hopper interface & lead-out -> Daniel
-- [ ] Gantry mount plate
-- [ ] Motor selection
+- [x] Hopper interface & lead-out -> Daniel
+- [x] Motor selection
 - [ ] Firmware updates
+  - [ ] Check TCP stack memory/CPU footprint on the ControllinoMega
 - [ ] Sensors / Audio, LED feedback (status, etc... )
 - [ ] Bonus : test HMI
+
+### Todos Frederike@3dtreehouse
+
+- [ ] Gantry mount plate, we need the size and locations of the mount holes. We'd need a test rig here.
+- [ ] Modbus over TCP seems a better fit after all which gives us CAT5 shielding as well some standard connectivity. RS485 has no real standard plugs, ...
+
+### Todos TimberStar
+
+- [ ] we need a laser cut barrel shield which holds the insulation material
+- [ ] on the barrel tip, we need some mounting possibilties for fans which are a little heavy as well
+
+## Components
+
+- [ ] OMRON MX2 VFD, adds 340,- Euro
+- [ ] Controllino - Mega as already mentioned a few times, adds 280 Euro
+- [ ] a better motor and gearbox, adds 600 Euro - MotoVario
+- [ ] custom firmware development: 1200 Euro
+- [ ] ModBus capable PID controllers (3x) : Omron - E5DC-B - Din - Rail Module, adds 330 Euro
+Total - Extras : 2750
 
 # Status
 
