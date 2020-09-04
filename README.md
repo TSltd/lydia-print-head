@@ -21,6 +21,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 - [ ] Gantry mount plate, we need the size and locations of the mount holes. We'd need a test rig here.
 - [ ] Modbus over TCP seems a better fit after all which gives us CAT5 shielding as well some standard connectivity. RS485 has no real standard plugs, ...
+- [ ] Location and size of the cabinet, what on the control panel (controls & plugs) ?
 
 ### Todos TimberStar
 
