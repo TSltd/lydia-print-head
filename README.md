@@ -29,12 +29,11 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ## Components
 
-- [ ] OMRON MX2 VFD, adds 340,- Euro
-- [ ] Controllino - Mega as already mentioned a few times, adds 280 Euro
-- [ ] a better motor and gearbox, adds 600 Euro - MotoVario
+- [x] [OMRON MX2 VFD](https://industrial.omron.es/es/products/3G3MX2-A2022-E) [BOM](https://es.wiautomation.com/omron/variadores-motores-proteccion-de-circuitos/3G3MX2A2022E?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgnGbRSd_DaX-o59wjtIBqI2mGllXWWOvjhSC1sPQgOTmGMvc7toncaAqejEALw_wcB)
+- [x] Controllino - Mega as already mentioned a few times, adds 280 Euro
+- [x] a better motor and gearbox, adds 600 Euro - MotoVario
 - [ ] custom firmware development: 1200 Euro
-- [ ] ModBus capable PID controllers (3x) : Omron - E5DC-B - Din - Rail Module, adds 330 Euro
-Total - Extras : 2750
+- [x] ModBus capable PID controllers (3x) : [Omron - E5DC-B](https://industrial.omron.eu/en/products/E5DC-QX2ASM-002) - Din - Rail Module [BOM](https://es.wiautomation.com/omron/plc-sistemas/E5DCQX2ASM002?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgWMeg-P2iN7wysDExpeHJHtEHAv06B2pKTz3DQlKjn67Al2K7YvvMaAs4IEALw_wcB)
 
 # Status
 
