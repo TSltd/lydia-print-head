@@ -2,13 +2,43 @@
 
 Lydia-v4 as printhead
 
-***brief*** this is part of our work of PP OpenSource contributions, please check our [library](https://library.precious-plastic.org/) or our [main page](https://plastic-hub.com/products/) for more. 
+***brief*** this is part of our work of PP OpenSource contributions, please check our [library](https://library.precious-plastic.org/) or our [main page](https://plastic-hub.com/products/) for more.
 
 This print head is a modification of [Lydia-v4](https://plastic-hub.com/products/lydia-v4.html) and aims at a generic solution for most of it´s components.
 
+**Status** : Confirmed & in progress, ETA Mid. of October
+
+## Todos
+
+- [x] Hopper interface & lead-out -> Daniel
+- [x] Motor selection
+- [ ] Firmware updates
+  - [ ] Check TCP stack memory/CPU footprint on the ControllinoMega
+- [ ] Sensors / Audio, LED feedback (status, etc... )
+- [ ] Bonus : test HMI
+
+### Todos Frederike@3dtreehouse
+
+- [ ] Gantry mount plate, we need the size and locations of the mount holes. We'd need a test rig here.
+- [ ] Modbus over TCP seems a better fit after all which gives us CAT5 shielding as well some standard connectivity. RS485 has no real standard plugs, ...
+- [ ] Location and size of the cabinet, what on the control panel (controls & plugs) ?
+
+### Todos TimberStar
+
+- [ ] we need a laser cut barrel shield which holds the insulation material
+- [ ] on the barrel tip, we need some mounting possibilties for fans which are a little heavy as well
+
+## Components
+
+- [x] [OMRON MX2 VFD](https://industrial.omron.es/es/products/3G3MX2-A2022-E) [BOM](https://es.wiautomation.com/omron/variadores-motores-proteccion-de-circuitos/3G3MX2A2022E?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgnGbRSd_DaX-o59wjtIBqI2mGllXWWOvjhSC1sPQgOTmGMvc7toncaAqejEALw_wcB)
+- [x] Controllino - Mega as already mentioned a few times, adds 280 Euro
+- [x] a better motor and gearbox, adds 600 Euro - MotoVario
+- [ ] custom firmware development: 1200 Euro
+- [x] ModBus capable PID controllers (3x) : [Omron - E5DC-B](https://industrial.omron.eu/en/products/E5DC-QX2ASM-002) - Din - Rail Module [BOM](https://es.wiautomation.com/omron/plc-sistemas/E5DCQX2ASM002?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgWMeg-P2iN7wysDExpeHJHtEHAv06B2pKTz3DQlKjn67Al2K7YvvMaAs4IEALw_wcB)
+
 # Status
 
-- Firmware, in development but mostly done
+- [Firmware](https://github.com/plastic-hub/hydra), in development but mostly done
 - Hardware, in re-design
 
 ### Specs
@@ -32,10 +62,6 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 ![](./assets/lydia-print-head-logical.jpg)
 
 **[Diagram source](https://app.diagrams.net/#G1L7Prviy9U-2gpcZHm8Z5dj39gxDHd_V_)**
-
-**References** 
-
-- There is currently an old but public backup of [PlasticHub Firmware](https://github.com/plastic-hub/plunger-firmware/tree/master/shredder-extrusion/firmware-next). In particular, it shows it's modularity and a number of features as Modbus and serial interfacing for HMIs (touchscreen), using [PlasticHub-Studio aka ´Control-Freak´](https://github.com/catx23/control-freak) ([Sources](https://github.com/plastic-hub/IDE))
 
 ### PID Controller
 
@@ -66,12 +92,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - Feed control ? -> waiting for the robot pictures
 - should have a thread interface
 
-### Heatbands
-
-#### Fans
-
 ----
-
 ## Todos
 
 - Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
@@ -87,4 +108,3 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
 - [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
 - [Project Noah](https://github.com/plastic-hub/noah)
-
