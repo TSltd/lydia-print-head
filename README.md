@@ -25,8 +25,8 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ### Todos TimberStar
 
-- [ ] we need a laser cut barrel shield which holds the insulation material
-- [ ] on the barrel tip, we need some mounting possibilties for fans which are a little heavy as well
+- [x] we need a laser cut barrel shield which holds the insulation material
+- [x] on the barrel tip, we need some mounting possibilties for fans which are a little heavy as well
 
 ## Components
 
