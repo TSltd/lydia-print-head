@@ -13,8 +13,8 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [x] Hopper interface & lead-out -> Daniel
 - [x] Motor selection
 - [ ] Firmware updates
-  - [ ] Check TCP stack memory/CPU footprint on the ControllinoMega
-- [ ] Sensors / Audio, LED feedback (status, etc... )
+  - [x] Check TCP stack memory/CPU footprint on the ControllinoMega
+- [x] Sensors / Audio, LED feedback (status, etc... )
 - [ ] Bonus : test HMI
 
 ### Todos Frederike@3dtreehouse
@@ -25,8 +25,8 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ### Todos TimberStar
 
-- [ ] we need a laser cut barrel shield which holds the insulation material
-- [ ] on the barrel tip, we need some mounting possibilties for fans which are a little heavy as well
+- [x] we need a laser cut barrel shield which holds the insulation material
+- [x] on the barrel tip, we need some mounting possibilties for fans which are a little heavy as well
 
 ## Components
 
@@ -83,22 +83,18 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - should have a mount near the nozzle
 - Barrel - motor flange should have some redunancy to enable different barrels
 
-### Screw
-
-- As mentioned, the longer the better. For composites we might use shorter but bigger ones.
-
+----
 ### Hopper interface and Hopper
 
-- Feed control ? -> waiting for the robot pictures
-- should have a thread interface
+- [-] Feed control ? -> waiting for the robot pictures
+- [ ] should have a thread interface
 
-----
 ## Todos
 
-- Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
-- Investigate GCode to ROS mapping
-- Investigate screw tip machining, if lucky we get away with 4 axis
-- Test different VFD/PID checksum/parity settings with larger EMI around
+- [ ] Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
+- [ ] Investigate GCode to ROS mapping
+- [x] Investigate screw tip machining, if lucky we get away with 4 axis
+- [-] Test different VFD/PID checksum/parity settings with larger EMI around
 
 # References
 
@@ -108,3 +104,10 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
 - [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
 - [Project Noah](https://github.com/plastic-hub/noah)
+
+### Project links
+
+- [Project Slack channel](https://pporgworkspace.slack.com/archives/C01A8G36MRP)
+- [Firmware](https://github.com/plastic-hub/hydra)
+
+
