@@ -35,6 +35,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [x] a better motor and gearbox, adds 600 Euro - MotoVario
 - [ ] custom firmware development: 1200 Euro
 - [x] ModBus capable PID controllers (3x) : [Omron - E5DC-B](https://industrial.omron.eu/en/products/E5DC-QX2ASM-002) - Din - Rail Module [BOM](https://es.wiautomation.com/omron/plc-sistemas/E5DCQX2ASM002?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgWMeg-P2iN7wysDExpeHJHtEHAv06B2pKTz3DQlKjn67Al2K7YvvMaAs4IEALw_wcB)
+- [Hopper - Linear Solenoid](https://uk.farnell.com/guardian-electric/t12x19-c-24d/solenoid-pull-operation-24vdc/dp/1608128?gclid=EAIaIQobChMIn4Xa8LPz6wIVEuntCh2SvwcDEAkYASABEgK3uvD_BwE&gross_price=true&mckv=s7TWt3nIG_dc%7Cpcrid%7C459864482330%7Cplid%7C%7Ckword%7C%7Cmatch%7C%7Cslid%7C%7Cproduct%7C1608128%7Cpgrid%7C114464711464%7Cptaid%7Cpla-323868377918%7C&CMP=KNC-GUK-SHOPPING-SMEC-Whoops-Newstructure-31Aug2020)
 
 # Status
 
