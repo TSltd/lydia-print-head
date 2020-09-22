@@ -20,8 +20,10 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 ### Todos Frederike@3dtreehouse
 
 - [ ] Gantry mount plate, we need the size and locations of the mount holes. We'd need a test rig here.
-- [ ] Modbus over TCP seems a better fit after all which gives us CAT5 shielding as well some standard connectivity. RS485 has no real standard plugs, ...
+- [x] Modbus over TCP seems a better fit after all which gives us CAT5 shielding as well some standard connectivity. RS485 has no real standard plugs, ...
 - [ ] Location and size of the cabinet, what on the control panel (controls & plugs) ?
+- [ ] We have to know how we share power source & ground among all digital circuits. Currently we're mostly at 24V and we need another source for 12V (fans, etc...)
+
 
 ### Todos TimberStar
 
@@ -32,9 +34,10 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 - [x] [OMRON MX2 VFD](https://industrial.omron.es/es/products/3G3MX2-A2022-E) [BOM](https://es.wiautomation.com/omron/variadores-motores-proteccion-de-circuitos/3G3MX2A2022E?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgnGbRSd_DaX-o59wjtIBqI2mGllXWWOvjhSC1sPQgOTmGMvc7toncaAqejEALw_wcB)
 - [x] Controllino - Mega as already mentioned a few times, adds 280 Euro
-- [x] a better motor and gearbox, adds 600 Euro - MotoVario
-- [ ] custom firmware development: 1200 Euro
+- [x] a better motor and gearbox - MotoVario
+- [ ] custom firmware development
 - [x] ModBus capable PID controllers (3x) : [Omron - E5DC-B](https://industrial.omron.eu/en/products/E5DC-QX2ASM-002) - Din - Rail Module [BOM](https://es.wiautomation.com/omron/plc-sistemas/E5DCQX2ASM002?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgWMeg-P2iN7wysDExpeHJHtEHAv06B2pKTz3DQlKjn67Al2K7YvvMaAs4IEALw_wcB)
+- [Hopper - Linear Solenoid](https://uk.farnell.com/guardian-electric/t12x19-c-24d/solenoid-pull-operation-24vdc/dp/1608128?gclid=EAIaIQobChMIn4Xa8LPz6wIVEuntCh2SvwcDEAkYASABEgK3uvD_BwE&gross_price=true&mckv=s7TWt3nIG_dc%7Cpcrid%7C459864482330%7Cplid%7C%7Ckword%7C%7Cmatch%7C%7Cslid%7C%7Cproduct%7C1608128%7Cpgrid%7C114464711464%7Cptaid%7Cpla-323868377918%7C&CMP=KNC-GUK-SHOPPING-SMEC-Whoops-Newstructure-31Aug2020)
 
 # Status
 
@@ -87,12 +90,12 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 ### Hopper interface and Hopper
 
 - [-] Feed control ? -> waiting for the robot pictures
-- [ ] should have a thread interface
+- [x] should have a thread interface
 
 ## Todos
 
-- [ ] Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
-- [ ] Investigate GCode to ROS mapping
+- [x] Investigate Omron - PID feedback to enable more control via M/G codes (purge,...)
+- [x] Investigate GCode to ROS mapping
 - [x] Investigate screw tip machining, if lucky we get away with 4 axis
 - [-] Test different VFD/PID checksum/parity settings with larger EMI around
 
