@@ -1,0 +1,23 @@
+Model No. T12x13-C-12
+
+Duty Cycle Continuous
+
+'On' Time 100 %
+
+Volts 12 VDC
+
+Resistance 22.8 Ω
+
+Power 6.6 W
+
+Total Weight 10.2 oz
+
+Plunger Weight 1.6 oz
+
+Holding Force 188 oz
+
+UL Recognition Recognized under the component recognition program of Underwriters Laboratories, Inc.
+
+RoHS These parts comply with RoHS directive 2002/95/EC
+
+Current 526 mA
