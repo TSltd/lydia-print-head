@@ -39,6 +39,10 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [x] ModBus capable PID controllers (3x) : [Omron - E5DC-B](https://industrial.omron.eu/en/products/E5DC-QX2ASM-002) - Din - Rail Module [BOM](https://es.wiautomation.com/omron/plc-sistemas/E5DCQX2ASM002?SubmitCurrency=1&id_currency=1&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjgWMeg-P2iN7wysDExpeHJHtEHAv06B2pKTz3DQlKjn67Al2K7YvvMaAs4IEALw_wcB)
 - [Hopper - Linear Solenoid](https://uk.farnell.com/guardian-electric/t12x19-c-24d/solenoid-pull-operation-24vdc/dp/1608128?gclid=EAIaIQobChMIn4Xa8LPz6wIVEuntCh2SvwcDEAkYASABEgK3uvD_BwE&gross_price=true&mckv=s7TWt3nIG_dc%7Cpcrid%7C459864482330%7Cplid%7C%7Ckword%7C%7Cmatch%7C%7Cslid%7C%7Cproduct%7C1608128%7Cpgrid%7C114464711464%7Cptaid%7Cpla-323868377918%7C&CMP=KNC-GUK-SHOPPING-SMEC-Whoops-Newstructure-31Aug2020)
 
+### Noah OS Variant
+- [x] [PLC/Proxy for Aux, Sensors, Relays, etc... - CP1L-EM40DT1-D](http://www.ia.omron.com/products/family/1916/lineup.html), works well with [Omron NB NB3Q-TW01B](https://es.wiautomation.com/omron/hmi-pc-industriales/NB3QTW01B?SubmitCurrency=1&id_currency=1&gclid=CjwKCAjwh7H7BRBBEiwAPXjadt5G-53T-xJ8v5VmzdF5wUu8uHT1us-fzXU5913IwC3Kbz4cDg3jnBoC7g0QAvD_BwE)
+
+
 # Status
 
 - [Firmware](https://github.com/plastic-hub/hydra), in development but mostly done
@@ -46,7 +50,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ### Specs
 
-- Voltage : 220V
+- Voltage : 220V|380V
 - Max. 120Kg, first rev. might be around 60KG
 - Controller cable length around 20 meter
 - PID : +/- 5 degc tolerance, alarm/cooling outputs
@@ -68,11 +72,11 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ### PID Controller
 
-- We should go for [Omron E5-C](https://assets.omron.com/m/6f7cd0d93654a7a4/original/E5_C-Temperature-Controller-to-NB-Screen-Template-Tech-Guide.pdf) series which come with Modbus (consider EMI and cable length to the main controller)
-- Each PID will be exposed on the internal ModBus mapping
+- [ ] We should go for [Omron E5-C](https://assets.omron.com/m/6f7cd0d93654a7a4/original/E5_C-Temperature-Controller-to-NB-Screen-Template-Tech-Guide.pdf) series which come with Modbus (consider EMI and cable length to the main controller)
+- [ ] Each PID will be exposed on the internal ModBus mapping
 - There is currently a [custom PID controller](https://github.com/plastic-hub/pid-controller) in development but as mentioned, it's unlikely that it sees the light before November. However, I can imagine we use sub-routines as they're avaiable
-- We should create logging module as well a an API to set temperature profiles for different materials. The logging module will help analyzing different PID settings as well experimenting with barrel cooling (when overshooting becomes an issue).
-- Additional, we forward alarms for overshooting on the internal bus
+- [ ] We should create logging module as well a an API to set temperature profiles for different materials. The logging module will help analyzing different PID settings as well experimenting with barrel cooling (when overshooting becomes an issue).
+- [ ] Additional, we forward alarms for overshooting on the internal bus
 
 - **Changes** :  Turns out that the [E5DC / E5DC-B](http://www.ia.omron.com/products/family/3242/) family is better choice.
 
