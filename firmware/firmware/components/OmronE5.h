@@ -166,151 +166,151 @@ enum OR_E5_SWR
     // Valve Opening Monitor, 0xFFFFFF9C to 0x0000044C (−10.0 to 110.0)
     OR_E5_SWR_VALVE_OPENING_MON = 0x2607,
 
-    //  Proportional Band (Cooling), H'00000001 to H'0000270F (0.1 to 999.9)
+    //  Proportional Band (Cooling), 0x00000001 to 0x0000270F (0.1 to 999.9)
     OR_E5_SWR_PRO_BAND = 0x2701,
 
-    //  Integral Time (Cooling) H'00000000 to H'0000270F
+    //  Integral Time (Cooling) 0x00000000 to 0x0000270F
     // (0 to 9999: Integral/derivative time unit is 1 s.)
     // (0.0 to 999.9: Integral/derivative time unit is 0.1 s.)
     OR_E5_SWR_IT_COOLING = 0x2702,
 
-    //  Derivative Time (Cooling) H'00000000 to H'0000270F
+    //  Derivative Time (Cooling) 0x00000000 to 0x0000270F
     //  (0 to 9999: Integral/derivative time unit is 1 s.)
     //  (0.0 to 999.9: Integral/derivative time unit is 0.1 s.)
     OR_E5_SWR_D_COOLING = 0x2703,
 
-    // Dead Band H'FFFFF831 to H'0000270F
+    // Dead Band 0xFFFFF831 to 0x0000270F
     // (−199.9 to 999.9 for temperature input)
     // (−19.99 to 99.99 for analog input)
     OR_E5_SWR_DEADBAND = 0x2704,
 
     // Manual Reset Value,
-    //  H'00000000 to H'000003E8 (0.0 to 100.0)
+    //  0x00000000 to 0x000003E8 (0.0 to 100.0)
     OR_E5_SWR_MANUAL_RESET_VALUE = 0x2705,
 
     // Hysteresis (Heating)
-    // H'00000001 to H'0000270F
+    // 0x00000001 to 0x0000270F
     // (0.1 to 999.9 for temperature input)
     // (0.01 to 99.99 for analog input)
     OR_E5_SWR_HYSTERESIS = 0x2706,
 
     // Hysteresis (Cooling) 
-    //  H'00000001 to H'0000270F
+    //  0x00000001 to 0x0000270F
     //  (0.1 to 999.9 for temperature input)
     //  (0.01 to 99.99 for analog input)
     OR_E5_SWR_HYSTERESIS_COOLING = 0x2707,
 
     // Control Period (Heating)
-    //  H'FFFFFFFE (−2): 0.1 s
-    //  H'FFFFFFFF (−1): 0.2 s
-    //  H'00000000 (0): 0.5 s
-    //  H'00000001 to H'00000063 (1 to 99)
+    //  0xFFFFFFFE (−2): 0.1 s
+    //  0xFFFFFFFF (−1): 0.2 s
+    //  0x00000000 (0): 0.5 s
+    //  0x00000001 to 0x00000063 (1 to 99)
     OR_E5_SWR_CONTROL_PERIOD_HEATING = 0x2708,
  
  
     // Control Period (Cooling)
-    //  H'FFFFFFFE (−2): 0.1 s
-    //  H'FFFFFFFF (−1): 0.2 s
-    //  H'00000000 (0): 0.5 s
-    //  H'00000001 to H'00000063 (1 to 99)
+    //  0xFFFFFFFE (−2): 0.1 s
+    //  0xFFFFFFFF (−1): 0.2 s
+    //  0x00000000 (0): 0.5 s
+    //  0x00000001 to 0x00000063 (1 to 99)
     OR_E5_SWR_CONTROL_PERIOD_COOLING = 0x2709,
 
     // Position Proportional Dead Band
-    //  H'00000001 to H'00000064 (0.1 to 10.0)
+    //  0x00000001 to 0x00000064 (0.1 to 10.0)
     OR_E5_SWR_POSITION_PROPORTIONAL_DEAD_BAND = 0x270A,
 
     // Open/Close Hysteresis 
-    //  H'00000001 to H'000000C8 (0.1 to 20.0)
+    //  0x00000001 to 0x000000C8 (0.1 to 20.0)
     OR_E5_SWR_OPEN_CLOSE_HYSTERESIS = 0x270B,
 
-    // SP Ramp Time Unit H'00000000 (0): EU/second
-    //  H'00000001 (1): EU/minute
-    //  H'00000002 (2): EU/hour
+    // SP Ramp Time Unit 0x00000000 (0): EU/second
+    //  0x00000001 (1): EU/minute
+    //  0x00000002 (2): EU/hour
     OR_E5_SWR_SP_RAMP_UNIT = 0x270C,
 
-    // SP Ramp Set Value H'00000000 (0): OFF
-    //  H'00000001 to H'0000270F (1 to 9999)
+    // SP Ramp Set Value 0x00000000 (0): OFF
+    //  0x00000001 to 0x0000270F (1 to 9999)
     OR_E5_SWR_SP_RAMP_SET_VALUE = 0x270D,
 
     // SP Ramp Fall Value
-    //  H'FFFFFFFF (−1): Same (Same as SP Ramp Set Value.)
-    //  H'00000000 (0): OFF
-    //  H'00000001 to H'0000270F (1 to 9999)
+    //  0xFFFFFFFF (−1): Same (Same as SP Ramp Set Value.)
+    //  0x00000000 (0): OFF
+    //  0x00000001 to 0x0000270F (1 to 9999)
     OR_E5_SWR_SP_FALL_VALUE = 0x270E,
 
     //  MV at Stop Standard Models
     //  Standard control:
-    //      H'FFFFFFCE to H'0000041A (−5.0 to 105.0)
+    //      0xFFFFFFCE to 0x0000041A (−5.0 to 105.0)
     //  Heating and cooling control:
-    //      H'FFFFFBE6 to H'0000041A (−105.0 to 105.0)
+    //      0xFFFFFBE6 to 0x0000041A (−105.0 to 105.0)
     //  Position-proportional Models
     //      Close position-proportional control with the Direct Setting of
     //      Position Proportional MV parameter set to ON:
-    //      H'FFFFFFCE to H'0000041A (−5.0 to 105.0)
+    //      0xFFFFFFCE to 0x0000041A (−5.0 to 105.0)
     //      Floating position-proportional control or the Direct Setting of
     //      Position Proportional MV parameter set to OFF:
-    //      H'FFFFFFFF to H'00000001 (−1 to 1)
+    //      0xFFFFFFFF to 0x00000001 (−1 to 1)
     OR_E5_SWR_MV_PV_ERROR = 0x2711,
 
     // MV Change Rate Limit 
-    //  H'00000000 to H'000003E8 (0.0 to 100.0)
+    //  0x00000000 to 0x000003E8 (0.0 to 100.0)
     OR_E5_SWR_CHANGE_RATE_LIMIT = 0x2713,
 
     // PV Input Slope Coefficient
-    //  H'00000001 to H'0000270F (0.001 to 9.999)
+    //  0x00000001 to 0x0000270F (0.001 to 9.999)
     OR_E5_SWR_PV_INPUT_SLOPE_COEFFICIENT = 0x2718,
 
     // Heater Burnout Detection 1
-    //  H'00000000 to H'000001F4 (0.0 to 50.0)
+    //  0x00000000 to 0x000001F4 (0.0 to 50.0)
     OR_E5_SWR_HEATER_BURNOUT_DETECTION_1 = 0x271B,
 
     // Leakage Current 1 Monitor
-    //  H'00000000 to H'00000226 (0.0 to 55.0)
+    //  0x00000000 to 0x00000226 (0.0 to 55.0)
     OR_E5_SWR_LEAKAGE_CURRENT_MONITOR_1 = 0x271C,
 
     // HS Alarm 1 
-    //  H'00000000 to H'000001F4 (0.0 to 50.0)
+    //  0x00000000 to 0x000001F4 (0.0 to 50.0)
     OR_E5_SWR_HS_ALARM_1 = 0x271D,
 
     // Process Value Input Shift 
-    //  H'FFFFF831 to H'0000270F (−1999 to 9999)
+    //  0xFFFFF831 to 0x0000270F (−1999 to 9999)
     OR_E5_SWR_PROCESS_VALUE_INPUT_SHIFT = 0x2723,
 
     // Heater Burnout Detection 2
-    //  H'00000000 to H'000001F4 (0.0 to 50.0)
+    //  0x00000000 to 0x000001F4 (0.0 to 50.0)
     OR_E5_SWR_HEATER_BURNOUT_DETECTION_2 = 0x2725,
 
     // Leakage Current 2 Monitor
-    //  H'00000000 to H'00000226 (0.0 to 55.0)
+    //  0x00000000 to 0x00000226 (0.0 to 55.0)
     OR_E5_SWR_LEAKAGE_CURRENT_MONITOR_2 = 0x2726,
 
     // HS Alarm 12
-    //  H'00000000 to H'000001F4 (0.0 to 50.0)
+    //  0x00000000 to 0x000001F4 (0.0 to 50.0)
     OR_E5_SWR_HS_ALARM_2 = 0x2727,
     
     // Soak Time Remain (how lovely)
-    //  H'00000000 to H'0000270F (0 to 9999)
+    //  0x00000000 to 0x0000270F (0 to 9999)
     OR_E5_SWR_SOAK_REMAIN = 0x2728,
 
     // Soak Time  
-    //  H'00000001 to H'0000270F (1 to 9999)
+    //  0x00000001 to 0x0000270F (1 to 9999)
     OR_E5_SWR_SOAK_TIME = 0x2729,
 
-    // Wait Band H'00000000 (0): OFF
-    //  H'00000001 to H'0000270F
+    // Wait Band 0x00000000 (0): OFF
+    //  0x00000001 to 0x0000270F
     //  (0.1 to 999.9 for Temperature input)
     //  (0.01 to 99.99 for Analog input)
     OR_E5_SWR_WAIT_BAND = 0x272A,
 
     // Remote SP Input Shift
-    //  H'FFFFF831 to H'0000270F (−1999 to 9999)
+    //  0xFFFFF831 to 0x0000270F (−1999 to 9999)
     OR_E5_SWR_REMOTE_SP_SHIFT = 0x272B,
 
     // Remote SP input Slope Coefficient
-    //  H'00000001 to H'0
+    //  0x00000001 to 0x0
     OR_E5_SWR_REMOTE_SP_SLOPE_COEFFICIENT = 0x272C,
 
-    //  Input Digital Filter H'00000000 to H'0000270F (0.0 to 999.9)
+    //  Input Digital Filter 0x00000000 to 0x0000270F (0.0 to 999.9)
     OR_E5_SWR_DIGITAL_FILTER = 0x2800
 
     // Notes :
