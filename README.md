@@ -1,10 +1,8 @@
-# lydia-print-head
-
-Lydia-v4 as printhead
+# Robot driven print systems
 
 ***brief*** this is part of our work of PP OpenSource contributions, please check our [library](https://library.precious-plastic.org/) or our [main page](https://plastic-hub.com/products/) for more.
 
-This print head is a modification of [Lydia-v4](https://plastic-hub.com/products/lydia-v4.html) and aims at a generic solution for most of it´s components.
+The print head is a modification of [Lydia-v4](https://plastic-hub.com/products/lydia-v4.html) and aims at a generic solution for most of it´s components.
 
 **Status** : Confirmed & in progress, ETA Mid. of October
 
