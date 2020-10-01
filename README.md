@@ -124,7 +124,8 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [ABB - AC_800M - Protocols](./vendor/abb/3BSE035982-511_en_AC_800M_5.1_Feature_Pack_Communication_Protocols.pdf)
 - [ABB - IRC - 5 - Controller](https://new.abb.com/products/robotics/controllers/irc5)
 - [ABB - IRC - Datasheet](./vendor/abb/IRC5-Industrial-Robot-Controller-data sheet.PDF)
-- [Abb irb 6600 175/2.8](https://library.e.abb.com/public/560fa420555c2d8ac1257b4b0052112c/3HAC023933-001_rev1_en.pdf)
+- [ABB irb 6600 175/2.8](https://library.e.abb.com/public/560fa420555c2d8ac1257b4b0052112c/3HAC023933-001_rev1_en.pdf)
+- [ABB irb 6600 175/2.8 - Local](./vendor/abb/IRB_6600_R_US 02_05.pdf)
 
 ## Project links
 
