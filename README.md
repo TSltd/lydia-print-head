@@ -118,7 +118,12 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 ## Related Projects
 
 * [Project Noah](https://github.com/plastic-hub/noah)
+
+### Cable robotics
+
 - [The Cable-robot Analysis and Simulation Platform for Research (CASPR)](https://github.com/darwinlau/CASPR)
+- [CUHK C3 Robotics Laboratory - Youtube](https://www.youtube.com/channel/UCxadDa3g1fUarP4ldAECtLQ)
+
 
 ### Rapid - ABB
 
