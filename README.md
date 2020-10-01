@@ -16,6 +16,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
   - [x] Check TCP stack memory/CPU footprint on the ControllinoMega
 - [x] Sensors / Audio, LED feedback (status, etc... )
 - [ ] Bonus : test HMI
+- [ ] Support [RAPID - ABB robots, but uses customer spec](https://library.e.abb.com/public/688894b98123f87bc1257cc50044e809/Technical%20reference%20manual_RAPID_3HAC16581-1_revJ_en.pdf)
 
 ### Todos Frederike@3dtreehouse
 
@@ -23,7 +24,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [x] Modbus over TCP seems a better fit after all which gives us CAT5 shielding as well some standard connectivity. RS485 has no real standard plugs, ...
 - [ ] Location and size of the cabinet, what on the control panel (controls & plugs) ?
 - [ ] We have to know how we share power source & ground among all digital circuits. Currently we're mostly at 24V and we need another source for 12V (fans, etc...)
-
+- [ ] Clarify RAPID ethernet connectivity
 
 ### Todos TimberStar
 
