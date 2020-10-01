@@ -1,0 +1,565 @@
+﻿#contentHead
+{
+	width: 774px;
+	float: left;
+	display: inline;
+	background: #fff url(/Client/Images/mainRegion_top_bg.gif) repeat-x scroll top left;
+	margin-bottom: 6px;
+}
+#contentHead #contentHeadInner
+{
+	margin-left: 6px;
+	display: inline;
+	float: left;
+	width: 766px;
+}
+#contentHead #contentHeadInner img
+{
+	float: left;
+}
+#content,
+#sectionRegions
+{
+	float: left;
+}
+#content
+{
+	margin-left: 6px;
+}
+#mainRegion
+{
+	float: left;
+	overflow: hidden;
+}
+.topStory
+{
+	float: left;
+	display: inline;
+	margin-top: 14px;
+}
+.topStory .leadText
+{
+	font-weight: bold;
+	line-height: 1.3em;
+	margin-bottom: .4em;
+	font-size: 110%;
+}
+.topStory .bodyText
+{
+	margin-bottom: 1em;
+}
+
+.topStory .bodyText p
+{
+	margin: 1em 0;
+}
+.topStory .bodyText table 
+{
+	clear: both;
+}
+
+.advancedGrid .twoCols
+{
+	float: left;
+}
+.advancedGrid .twoCols .column1,
+.advancedGrid .twoCols .column2
+{
+	float: left;
+	width: 48%;
+	margin-right: 1%;
+}
+.iconTitleSection
+{
+	float: left;
+	width: 100%;
+	background: transparent url(/Client/Images/section_line_bg.gif) repeat-x scroll 0px 2px;
+}
+.iconTitleSection .icon
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	overflow: hidden;
+}
+.iconTitleSection h2
+{
+	padding-top: 4px;
+	margin-bottom: 8px;
+	font-size: 104%;
+	padding-left: 4px;
+}
+.iconTitleSectionImage h2,
+.iconTitleSectionImage .firstElement
+{
+	padding-left: 54px;
+}
+#resourceRegion .filterSection label
+{
+	display: block;
+	margin-bottom: 4px;
+}
+#resourceRegion .filterSection .row
+{
+	margin-bottom: 6px;
+}
+#resourceRegion .filterSection .row label
+{
+	display: inline;
+}
+#resourceRegion .filterSection .row select
+{
+	width: 100%;
+}
+#resourceRegion .filterSection .list
+{
+	float: left;
+	width: 100%;
+	padding-bottom: 4px;
+}
+#resourceRegion .filterSection .list .col
+{
+	width: 48%;
+	float: left;
+}
+.metaText
+{
+	font-style: italic;
+}
+.robotInfo
+{
+	position: absolute;
+	top: -100px;
+	height: 1px;
+	overflow: hidden;
+}
+ul.linkList,
+ul.arrowlist
+{
+	margin: 0px 0px 8px 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+ul.linkList li,
+ul.arrowlist li
+{
+	background-image: url(/Client/Images/arrow_right_blue_2.gif);
+	background-position: 1px .1em;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	padding-top: .1em;
+	padding-bottom: .1em;
+}
+ul.cleanList
+{
+	margin: 0px 0px 8px 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+ul.cleanList li
+{
+	clear: both;
+}
+.strictGrid
+{
+}
+.strictGrid h2.title
+{
+	margin: 10px 10px 6px 10px;
+}
+.strictGrid h3
+{
+	margin-bottom: 2px;
+}
+.strictGrid p
+{
+	margin-bottom: 8px;
+}
+.floatingGrid,
+.floatingGridInner,
+.floatingGrid .column1,
+.floatingGrid .column2
+{
+	float: left;
+}
+.cleanGrid,
+.strictGrid,
+.strictGridInner,
+.strictGrid .column1,
+.strictGrid .column2
+{
+	float: left;
+}
+.strictGrid .column2
+{
+	background-image: url(/ClientInside/Images/dottedline_vertical.gif);
+	background-position: 0px 0px;
+	background-repeat: repeat-y;
+}
+.strictGrid .gridRow
+{
+	background-image: url(/ClientInside/Images/dottedline_bottom2.gif);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	float: left;
+	margin-bottom: 8px;
+}
+.cleanGrid .gridRow,
+.cleanGrid .column2
+{
+	background-image: none;
+}
+.colSection
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 8px;
+}
+.columnInner
+{
+	margin: 0px 14px 12px 10px;
+}
+#resourceRegion .section
+{
+	float: left;
+	clear: both;
+	width: 195px;
+}
+#resourceRegion .section .sectionInner
+{
+	float: left;
+	width: 195px;
+}
+#resourceRegion .singleSection,
+#resourceRegion .singleSection .sectionInner
+{
+	background-image: none;
+}
+.strictGrid h2.title,
+#mainRegion .sectionTitle,
+#resourceRegion .section h2.title,
+#mainRegion .section h2.title
+{
+	background-color: #DEE8F1;
+	clear: both;
+	color: #000000;
+	font-size: 85%;
+	margin: 5px 0px;
+	padding: 1pt 0pt 2pt 6px;
+	text-transform: uppercase;
+	width: 100%;
+}
+#mainRegion .section
+{
+	float: left;
+}
+#mainRegion .singleSection
+{
+	background-image: none;
+}
+#mainRegion .section .sectionInner
+{
+	float: left;
+	display: inline;
+}
+#mainRegion .sectionTitle
+{
+}
+.topStory,
+#mainRegion .section .sectionInner,
+#mainRegion #docHistory
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+#mainRegion #docHistory
+{
+	padding-bottom: 8px;
+}
+#mastHead
+{
+	float: left;
+	clear: right;
+	margin-bottom: 5px;
+}
+#mastHead img
+{
+	float: left;
+}
+.newsLinks
+{
+	float: right;
+}
+.newsLinks a
+{
+	white-space: nowrap;
+	float: left;
+}
+.strictGrid .newsLinks
+{
+	margin-right: 12px;
+}
+.archiveLink
+{
+	background-image: url(/Client/Images/arrow_gray.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	font-weight: bold;
+	display: inline;
+}
+.archiveRSSLink
+{
+	padding-left: 10px;
+	display: inline;
+	border-left: solid 1px #aaa;
+	padding-left: 6px;
+	padding-right: 16px;
+	margin-left: 6px;
+	background-image: url(/Client/Images/rss_small.gif)!important;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.marginImage
+{
+	float: right;
+	margin-left: 10px;
+	clear: both;
+	width: 126px;
+	background-color: #fff;
+}
+.marginImage .image
+{
+	float: left;
+	clear: both;
+	width: 124px;
+}
+
+.marginImage img
+{
+	float:left;
+	background: white;
+	overflow: hidden;
+	width: 120px;
+	max-width: 120px;
+	border: solid 2px #fff!important;
+}
+
+.marginImage #marginImage
+{
+	/* Flash */
+	float:none;
+	max-width: 120px;
+	max-height: 83px;
+	width: 120px;
+	height: 83px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top: 2px;
+	margin-bottom: 2px;	
+	
+}
+
+html > body .marginImage img
+{
+	width: auto;
+}
+.marginImage .imageText
+{	
+	width:100%;
+	float:left;
+	font-size: 80%;
+	clear:both;
+}
+
+#resourceRegion .marginImage
+{
+	width: 195px;
+	margin-left: 0px;
+	float: left;
+	clear: both;	
+	padding-left: 4px;
+	padding-bottom: 4px;
+	background-image: url(/Client/Images/dottedline_bottom2.gif);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+
+}
+#resourceRegion .marginImage .image
+{
+	width: 183px;
+	background: white;	
+	text-align: center;
+	overflow: hidden;
+}
+#resourceRegion .marginImage .image a
+{
+	width: 181px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	line-height: 0px;
+}
+#resourceRegion .marginImage img
+{
+	width: auto;
+	max-width: 179px;
+	float: none;
+}
+#resourceRegion .marginImage #marginImage
+{
+	/* Flash */
+	float:none;
+	max-width: 179px;
+	max-height: 124px;
+	width: 179px;
+	height: 124px;
+	margin: 2px;
+}
+#resourceRegion .marginImage .imageTooWide img
+{
+	width: 179px;
+}
+html>body #resourceRegion .marginImage .imageTooWide img
+{
+	width: auto;
+}
+#resourceRegion .marginImage .imageText
+{	
+	margin-left: 5px;	
+	margin-right: 5px;
+	width: 179px;
+}
+
+#mainRegion .threeCols
+{
+	float: left;
+	width: 100% !important;
+	clear: none;
+}
+#mainRegion .threeCols .col
+{
+	float: left;
+	width: 33% !important;
+	clear: none;
+	background-image: url(/Client/Images/dottedline_vertical.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+#resourceRegion .contentLinkList select, 
+#resourceRegion .sectionContactUs select
+{
+	width: 148px;
+}
+#resourceRegion .contactSection h2.title
+{
+	margin-bottom: 0px;
+}
+#resourceRegion .contactSection .contactDiv
+{
+	margin-bottom: 8px;
+	float: left;
+	width: 100%;
+}
+#resourceRegion .contactSection .dropDownList
+{
+	width: 148px!important;
+}
+#resourceRegion .contactSection .contact
+{
+	clear: both;
+	margin-bottom: 2px;
+	float: left;
+	width: 100%;
+}
+#resourceRegion .contactSection .contactType
+{
+	float: left;
+	margin-right: 8px;
+}
+#resourceRegion .contactSection .localContact
+{
+	float: right;
+	width: auto;
+}
+#resourceRegion .contactSection .localContact .dropDownList
+{
+	width: 104px !important;
+}
+#resourceRegion .contactSection .contactName
+{
+	float: left;
+}
+
+#pressReleaseList
+{
+	width: 100%;
+}
+#pressReleaseList thead
+{
+	display: none;
+}
+#pressReleaseList td
+{
+	padding-bottom: 4px;
+}
+#pressReleaseList .date
+{
+	width: 20%;
+}
+#mainRegion .section,
+#mainRegion .strictGrid,
+#mainRegion .floatingGrid
+{
+}
+#mainRegion .lastGrid
+{
+	background-image: none!important;
+}
+
+#mainRegion .largeProductImage .image img
+{
+	width: 179px;
+	max-width: 179px;
+}
+#mainRegion .largeProductImage .image
+{
+	width: 183px;
+}
+#mainRegion .largeProductImage
+{
+	width: 185px;
+}
+#resourceRegion #poll .dropDownList
+{
+	width: 192px;
+}
+#resourceRegion #poll .answers
+{
+}
+#resourceRegion #poll .answer
+{
+	float: left;
+	margin-bottom: 2px;
+	width: 100%;
+}
+#resourceRegion #poll .answerText
+{
+	float: left;
+	width: 100px;
+}
+#resourceRegion #poll .voteBar
+{
+	float: left;
+	background-image: url(/ClientInside/Images/pollBar_bg.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+#resourceRegion #poll .vote
+{
+	padding-left: 4px;
+	float: left;
+	background-color: #fff;
+}

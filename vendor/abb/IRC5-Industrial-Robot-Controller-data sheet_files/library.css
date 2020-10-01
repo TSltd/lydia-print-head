@@ -1,0 +1,330 @@
+﻿ 
+
+.library .hand
+{
+	cursor: hand;
+}
+
+.library #siteIdentificator
+{
+	font-size: 148%;
+	color: #3778b4;
+	padding-top: 16px;
+}
+
+.browse #leftRegion
+{
+	float: left;
+	display: inline;
+	padding-top: 10px;
+	overflow: hidden;
+	width: 254px;
+	height: 680px;
+}
+
+.browse #leftRegion .contentBlock
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	padding-left: 6px;
+	width: 250px;
+}
+
+.browse .textInput
+{
+	width: 185px;
+	margin-bottom:3px;
+}
+
+.browse #mainRegion
+{
+	width: 620px;
+	padding-top: 10px;
+	display: inline;
+}
+.browse #mainRegion .contentBlock
+{
+	margin: 8px;
+}
+.browse #contentRegion
+{
+	background-color:#FFFFFF;
+	background-image:none;
+	width:900px
+}
+
+.browse .dropDownList
+{
+	width: 190px;
+	margin-bottom: 4px;
+}
+.browse .subHeadlineLeft
+{
+	float: left;
+	padding-top: 2px;
+	width: 105px;
+	font-size:104%;
+	font-weight:normal;
+	margin-bottom:0.3em;
+	margin-top:0px;
+	/*text-transform:uppercase;*/
+	background-color:Transparent;
+}
+
+.browse .selectedNode
+{
+	font-weight:bold	
+}
+
+.largeFonts A
+{
+	font-size:140%;
+}
+
+.largeFonts .largeFont
+{
+	font-size:140%;
+}
+
+.scot .freeTextLabels
+{
+	margin-left:40px;
+}
+
+.scot .freeTextBox
+{
+	border-top: 2px solid #949496;
+	border-right: 1px solid #B3B3B4;
+	border-left: 1px solid #B3B3B4;
+	border-bottom: 1px solid #B3B3B4;
+	background-image: url(/Client/Images/text_area_background.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	width:250px;
+}
+
+.scot .wideDropDownList
+{
+	border-top: 1px solid #949496;
+	border-right: 1px solid #B3B3B4;
+	border-left: 1px solid #B3B3B4;
+	border-bottom: 1px solid #B3B3B4;
+	background-image: url(/Client/Images/text_area_background.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	font-size: 100%;
+	width:255px;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+.scot .dropLabels
+{
+	margin-left:30px;
+}
+
+.scot .narrowDropDownList
+{
+	border-top: 1px solid #949496;
+	border-right: 1px solid #B3B3B4;
+	border-left: 1px solid #B3B3B4;
+	border-bottom: 1px solid #B3B3B4;
+	background-image: url(/Client/Images/text_area_background.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	font-size: 100%;
+	width:155px;
+	margin-bottom:10px;
+}
+
+/* Download.aspx > Synopsis: */
+
+.synopsisContainer 
+{
+	float: left;
+	width: 550px; 
+	padding: 5px 3px 0px 3px;
+	
+	background-color: #e0e0e0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #454545;
+}
+
+.synopsis
+{
+	float: left;
+	width: 100%;
+}
+
+.synopsisMain 
+{
+	width: 530px !important;
+	padding: 5px 10px 0px 10px;
+	background-color: #ffffff !important;
+}
+
+.synopsisCopyright 
+{
+	padding: 3px 0px 3px 0px;
+}
+
+.synopsisCopyright a 
+{
+	color: #666;
+	margin-right: 20px;
+}
+
+.synopsis p 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.synopsis .title 
+{
+    word-wrap: break-word;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.synopsis .leftIcon 
+{
+	float: left;
+	margin-right: 5px;
+}
+
+.synopsis .iconParaPanel p 
+{
+	float: left;
+}
+
+.synopsis .iconParaPanel 
+{
+	float: left;
+	width: 100%;
+	padding: 3px 0px 3px 0px;
+}
+
+.synopsis .propertyNamePara 
+{
+	float: left;
+	margin-right: 3px;
+	font-weight: bold;
+}
+
+.synopsis .propertyValuePara 
+{
+    word-wrap:break-word;
+	width:500px;
+}
+
+.synopsis .documentPropertiesPanel
+{
+	float: left;
+	margin: 8px 0px 5px 0px;
+	width: 100%;
+}
+
+.synopsis .propertyPanel 
+{
+	float: left;
+	width: 100%;
+}
+
+.synopsis .actionPanel 
+{
+	padding: 5px 0px 8px 0px;
+	float: left;
+	width: 100%;
+}
+
+.synopsis .actionPanel div
+{
+	display: inline;
+}
+
+.synopsis .actionPanel p
+{
+	display: inline;
+	margin: 0px 3px 0px 3px;
+}
+
+/* MyNotifications in TPP */
+
+.libraryDcNotificationsHeader 
+{
+    margin-bottom: 15px;
+}
+
+.libraryDcNotificationsCategories
+{
+    margin-bottom: 10px;
+}
+
+.libraryDcNotificationsCategories div
+{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #C8C8C8;
+    vertical-align: top;
+    padding: 5px 0px;
+}
+
+.libraryDcNotificationsCategories div div
+{
+    display: inline;
+    padding: 0px 5px;
+    border: none !important;
+}
+
+.libraryDcNotificationsCategories div p.category
+{
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin-bottom: 0px;
+    width: 95%;
+}
+
+.libraryDcNotificationsCategories div.filter 
+{
+    padding-right: 0px !important;
+}
+
+.libraryDcNotificationsCategories div.filter ul
+{
+    list-style-type: none;
+    background-color: #eeeeee;
+    padding: 0px 0px 0px 17px;
+    margin: 0px;
+}
+
+.libraryDcNotificationsCategories div.filter ul li p
+{
+    display: inline;
+    margin: 0px;
+}
+
+.libraryDcNotificationsCategories div.filter ul li span p.value
+{
+    display: inline;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.libraryDcMyNotificationsEmpty strong
+{
+    float: left;
+}
+
+.libraryDcMyNotificationsEmpty a
+{
+    float: right;
+}
