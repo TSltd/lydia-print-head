@@ -106,16 +106,24 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 # References
 
+## ROS
+
 - [ROS - Github](https://github.com/ros-industrial)
 - [ROS - GBRL - Github](https://github.com/openautomation/ROS-GRBL/wiki/GRBLtron)
 - [ROS - Matlab|SimuLnk](https://www.mathworks.com/help/ros/ug/get-started-with-ros-in-simulink.html)
 - [ROS Modbus - Wiki](http://wiki.ros.org/modbus)
 - [ROS Modbus - PLC - Github](https://github.com/sonyccd/ros_plc_modbus)
+
+## Related Projects
+
 - [Project Noah](https://github.com/plastic-hub/noah)
 
-### Project links
+### Rapid - ABB
+
+- [Language specs and docs](./vendor/abb/2CSG445026D0201-ANR-LAN-Modbus-TCP-Protocol.pdf)
+- [ABB - AC_800M - Protocols](./vendor/abb/3BSE035982-511_en_AC_800M_5.1_Feature_Pack_Communication_Protocols.pdf)
+
+## Project links
 
 - [Project Slack channel](https://pporgworkspace.slack.com/archives/C01A8G36MRP)
 - [Firmware](https://github.com/plastic-hub/hydra)
-
-
