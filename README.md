@@ -146,7 +146,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 ## Project links
 
 * [Project Slack channel](https://pporgworkspace.slack.com/archives/C01A8G36MRP)
-* [Firmware](https://github.com/plastic-hub/hydra)
+* [Firmware](https://github.com/plastic-hub/lydia-print-head/firmware)
 
 
 ## Follow ups
@@ -155,4 +155,4 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 - [ ] calc. min. invest to print obvious products
 - [ ] investigate possible OS verticals
 - [ ] develop generic system & functional design for v2.0 candidats, for 6D robots but also cable driven 3D systems
-
+- [ ] check displacement options for segmented prints, (cheap floor track system?)
