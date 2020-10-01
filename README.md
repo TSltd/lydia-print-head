@@ -146,7 +146,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 ## Project links
 
 * [Project Slack channel](https://pporgworkspace.slack.com/archives/C01A8G36MRP)
-* [Firmware](https://github.com/plastic-hub/lydia-print-head/firmware)
+* [Firmware](https://github.com/plastic-hub/medusa/firmware)
 
 
 ## Follow ups
