@@ -60,6 +60,7 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 * the gantry mount should be detached from the head-mount -> adapter plate
 * @todo : run static tests
+* the tool flange is on p30, ([see also ATI Toolchanger - YuTu](https://www.youtube.com/watch?v=kDP-oofDn4w&feature=youtu.be))
 
 ### Firmware
 
