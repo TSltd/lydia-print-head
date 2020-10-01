@@ -126,14 +126,13 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ### ABB 6600
 
-<img src="./vendor/abb/abb-irb-6600.jpg" style="width:50%"/>
+<img src="./vendor/abb/abb-irb-6600.jpg" style="width:50%"></img>
 
-
-* [ABB - IRC - 5 - Controller](https://new.abb.com/products/robotics/controllers/irc5)
-* [ABB - IRC - Datasheet](./vendor/abb/IRC5-Industrial-Robot-Controller-data sheet. PDF)
-* [ABB irb 6600 175/2.8](https://library.e.abb.com/public/560fa420555c2d8ac1257b4b0052112c/3HAC023933-001_rev1_en.pdf)
-* [ABB irb 6600 175/2.8 - Local](./vendor/abb/IRB_6600_R_US 02_05.pdf)
-* [ABB 660 - Specs](./vendor/abb/ABB-IR-6600-3HAC14064-1_revH_en_library.pdf)
+- [ABB - IRC - 5 - Controller](https://new.abb.com/products/robotics/controllers/irc5)
+- [ABB - IRC - Datasheet](./vendor/abb/IRC5-Industrial-Robot-Controller-data sheet.PDF)
+- [ABB irb 6600 175-2.8](https://library.e.abb.com/public/560fa420555c2d8ac1257b4b0052112c/3HAC023933-001_rev1_en.pdf)
+- [ABB irb 6600 175 - 2.8 - Local](./vendor/abb/IRB_6600_R_US 02_05.pdf)
+- [ABB 660 - Specs](./vendor/abb/ABB-IR-6600-3HAC14064-1_revH_en_library.pdf)
 
 ## Project links
 
