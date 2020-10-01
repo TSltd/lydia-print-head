@@ -64,9 +64,11 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 ### Firmware
 
-* For now, we base all on Arduino based and existing PlasticHub firmware framework, in particular we will use [Controllino-Mega](https://www.controllino.biz/product/controllino-mega/) which gives us Ethernet and RS485. The board has been proven reliable and robust (ideal for prototyping).
-* VFD and PID control is mapped to Serial communication which might accept G-Code
-* VFD will be Omron-M2X series since we can use existing code. The VFD also supports Modbus (rather difficult).
+- [-] For now, we base all on Arduino based and existing PlasticHub firmware framework, in particular we will use [Controllino-Mega](https://www.controllino.biz/product/controllino-mega/) which gives us Ethernet and RS485. The board has been proven reliable and robust (ideal for prototyping).
+- [-] VFD and PID control is mapped to Serial communication which might accept G-Code
+- [x] VFD will be Omron-M2X series since we can use existing code. The VFD also supports Modbus (rather difficult)
+- [ ] Internal registers/coils (custom PlasticHub Firmware) to Modbus rep
+
 
 ![](./assets/lydia-print-head-logical.jpg)
 
@@ -145,3 +147,12 @@ This print head is a modification of [Lydia-v4](https://plastic-hub.com/products
 
 * [Project Slack channel](https://pporgworkspace.slack.com/archives/C01A8G36MRP)
 * [Firmware](https://github.com/plastic-hub/hydra)
+
+
+## Follow ups
+
+- [ ] calc. energy overhead, per printed kg of plastic
+- [ ] calc. min. invest to print obvious products
+- [ ] investigate possible OS verticals
+- [ ] develop generic system & functional design for v2.0 candidats, for 6D robots but also cable driven 3D systems
+
